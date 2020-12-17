@@ -1,0 +1,174 @@
+.footer
+    padding: 80px 0
+    background: #ffffff
+    color: #707579
+    .logo
+        display: inline-block
+        img
+            display: block
+    .container
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        a:hover
+            color: $red
+    &__left
+        width: 320px
+        p
+            font-size: 12px
+            line-height: 1.5
+    &__center
+        width: 420px
+        display: flex
+        justify-content: space-between
+        word-wrap: none
+        white-space: nowrap
+        li
+            line-height: 21px
+            font-size: 14px
+            padding-bottom: 15px
+    &__right
+        width: 405px
+    &__title
+        font-size: 18px
+        padding-bottom: 15px
+    &__logo-sub
+        padding-bottom: 50px
+        padding-top: 26px
+    &__apps
+        display: flex
+        justify-content: space-between
+        padding-bottom: 15px
+        padding-top: 5px
+    &__app
+        position: relative
+        padding-left: 70px
+        min-height: 50px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-bottom: 20px
+        &:hover
+            .footer__app-icon
+                background: $redh
+            .link
+                &:hover
+                    color: $redh
+        .link
+            display: inline-block
+            margin-top: 1px
+            color: $red
+        &-icon
+            width: 50px
+            height: 50px
+            background: #CACCD2
+            border-radius: 8px
+            position: absolute
+            top: 0
+            left: 0
+            display: flex
+            align-items: center
+            justify-content: center
+            text-align: center
+            transition: all 0.15s ease-in-out
+    &__socials
+        display: flex
+        a
+            width: 40px
+            height: 40px
+            background: #CACCD2
+            border-radius: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+            text-align: center
+            margin-right: 25px
+            &:last-child
+                margin-right: 0
+            img
+                display: block
+            &:hover
+                background: $redh
+    &__bot
+        padding-top: 60px
+        display: flex
+        justify-content: space-between
+        font-size: 14px
+        width: 100%
+        a:hover
+            color: $red
+        .footer
+            &__right
+                display: flex
+                justify-content: space-between
+
+@media screen and (max-width: 1600px )
+    .footer
+        &__logo-sub
+            padding: 20px 0 40px
+            font-size: 15px
+        &__left
+            width: 300px
+        &__right
+            width: 360px
+            &__center
+                width: 370px
+        &__bot
+            font-size: 13px
+        &__app
+            padding-left: 65px
+
+@media screen and (max-width: 1199px )
+
+    .footer
+        padding: 60px 0
+        &__bot
+            flex-wrap: wrap
+            .footer__right
+                padding-top: 10px
+
+// @media screen and (max-width: 950px )
+
+@media screen and (max-width: 750px )
+    .footer
+        &__left
+            width: 100%
+            padding-bottom: 30px
+        &__logo-sub
+            padding: 15px 0 20px
+        &__center
+            max-width: 100%
+            padding: 30px 0 14px
+            border-top: 1px solid #EFF0F2
+            border-bottom: 1px solid #EFF0F2
+        &__right
+            padding-top: 30px
+        &__bot
+            padding-top: 40px
+            .footer
+                &__center
+                    padding: 30px 0 20px
+                    margin: 0
+                    border-bottom: none
+                    order: 0
+                &__right
+                    order: 1
+                    padding: 0 0 40px
+                &__left
+                    order: 2
+                    padding: 0
+
+// @media screen and (max-width: 550px )
+
+@media screen and (max-width: 450px )
+    .footer
+        font-size: 12px
+        .logo
+            width: 120px
+        &__center
+            padding-bottom: 20px
+            li
+                font-size: 12px
+                padding-bottom: 10px
+        &__bot
+            font-size: 12px

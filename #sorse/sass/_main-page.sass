@@ -1,0 +1,2110 @@
+.main-ban
+    background-color: $dwh
+    background-size: auto 100%
+    background-image: url('../img//bgm.png')
+    background-position: center right
+    background-repeat: no-repeat
+    height: 925px
+    padding: 20px 0 60px 0
+    &--agent
+        background-image: url('../img/agent-program/agent-program-bg.jpg')
+        background-size: auto 945px
+        background-position: right -105px
+        height: auto !important //1495px
+        max-height: none !important
+        padding-bottom: 121px
+        margin-bottom: 13px
+
+        .main-ban__text
+            width: 750px
+    .logo
+        display: inline-block
+        margin-bottom: 30px
+    .container
+        display: flex
+        flex-wrap: wrap
+    h1
+        font-size: 64px
+        padding-bottom: 40px
+        font-weight: 900
+        line-height: 1.2
+        span
+            color: $red
+    p
+        font-size: 24px
+        line-height: 1.5
+        padding-bottom: 120px
+    &__text
+        width: 600px
+    &__btns
+        display: flex
+        align-items: center
+        justify-content: space-between
+    .btn
+        width: 273px
+        height: 72px
+    .btn-red-border
+        svg
+            margin-right: 10px
+    &_tabs
+        margin: 0 auto 120px
+        display: flex
+        border-bottom: 2px solid #CACCD2
+        &__block
+            width: max-content
+            overflow: auto
+        &__item
+            padding-bottom: 30px
+            margin-right: 58px
+            &:last-child
+                margin-right: 0
+            a
+                font-size: 18px
+                font-weight: 700
+
+            &.active
+                border-bottom: 2px solid #EC2227
+                margin-bottom: -2px
+                a
+                    color: #EC2227
+
+.breadcrumbs
+    padding-bottom: 80px
+    display: flex
+    flex-basis: 100%
+    &_item
+        position: relative
+        margin-right: 28px
+        &:last-child
+            margin-right: 0
+        &::after
+            position: absolute
+            content: ''
+            font-size: 14px
+            right: -16px
+            top: 6px
+            width: 8px
+            height: 8px
+            background-image: url('../img/arrow-bread.svg')
+            background-repeat: no-repeat
+            background-size: contain
+        &:hover
+            color: $red
+        &:last-child
+            &::after
+                display: none
+            a
+                color: #CACCD2
+    a
+        font-size: 14px
+
+    &--agent
+        margin-top: 29px
+        padding-bottom: 196px
+.s-about
+    &_top
+        display: flex
+        flex-wrap: wrap
+        justify-content: flex-end
+        color: #4C5258
+        cursor: pointer
+        &-container
+            height: 78px
+        &__item
+            margin-right: 35px
+            &:last-child
+                margin-right: 0
+            a
+                display: block
+                padding: 28px 0
+                border-bottom: 2px solid #ffffff
+                font-size: 16px
+                &:hover
+                    color: $red
+                    border-bottom: 2px solid $red
+                &.active
+                    color: $red
+                    border-bottom: 2px solid $red
+    &_content
+        padding: 120px 0px
+        background: #F7F8FB
+    &_title
+        margin-bottom: 20px
+        font-size: 38px
+        font-weight: 900
+    &_text
+        font-size: 24px
+        line-height: 31px
+
+.popular-services
+    padding: 120px 0 80px
+    &_mod
+        background-color: #F7F8FB
+        padding-top: 0
+        .popular-services__item
+            background-color: #fff
+            p
+                font-size: 18px
+                line-height: 27px
+    &_warning
+        margin-top: 40px
+        display: flex
+        align-items: center
+    .warning
+        margin-right: 30px
+        padding: 5px 17px
+        background-color: #EC2227
+        border-radius: 30px
+        color: #fff
+        font-size: 25px
+        &_text
+            font-size: 18px
+            line-height: 24px
+            a
+                text-decoration: underline
+
+    &__list
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &__item
+        background: $dwh
+        border-radius: 8px
+        height: 600px
+        width: calc( 100% / 3 - 26px )
+        position: relative
+        overflow: hidden
+        padding: 50px
+        margin-bottom: 40px
+
+
+        h3
+            font-weight: 900
+            font-size: 29px
+            min-height: 105px
+        ul
+            padding-bottom: 15px
+        li
+            padding: 0 0 15px 19px
+            position: relative
+            font-size: 18px
+            &::before
+                content: ''
+                display: block
+                position: absolute
+                top: 9px
+                left: 0
+                width: 4px
+                height: 4px
+                border-radius: 100%
+                background: $red
+            a:hover
+                color: $red
+    .link
+        display: flex
+        align-items: center
+        svg
+            margin-left: 15px
+            fill: $red
+        &:hover
+            font-weight: bold
+            svg
+                fill: $redh
+    &__img
+        position: absolute
+        bottom: 0
+        right: 0
+        display: block
+    .all-services
+        display: flex
+        align-items: flex-end
+        position: relative
+        background: $red
+        font-size: 48px
+        font-weight: 900
+        line-height: 1.2
+        color: #ffffff
+        &:hover
+            background: $redh
+            &::after
+                transform: rotate(45deg)
+        &::after
+            content: ''
+            display: block
+            width: 44px
+            height: 44px
+            position: absolute
+            top: 30px
+            right: 30px
+            background: url('../img/arr45.svg') no-repeat center
+
+.s-scenario
+    .s-title
+        margin-bottom: 40px
+    &_subtitle
+        margin-bottom: 100px
+        font-size: 29px
+
+    &_list
+        display: flex
+        margin-bottom: 120px
+        &__item
+            flex-basis: 33%
+            border-radius: 8px
+            overflow: hidden
+            &:hover
+                .s-scenario_list__item___title
+                    background-color: #F7F8FB
+                    border-bottom: 2px solid #EC2227
+            &___title
+                padding: 30px
+                padding-bottom: 25px
+                margin-bottom: 60px
+                border-bottom: 2px solid #F7F8FB
+                font-size: 19px
+                transition: all .3s
+                h3
+                    margin-bottom: 10px
+                    font-weight: 900
+            &___desc
+                ul
+                    li
+                        padding: 0 0 15px 19px
+                        position: relative
+                        font-size: 19px
+                        &::before
+                            content: ''
+                            display: block
+                            position: absolute
+                            top: 12px
+                            left: 0
+                            width: 4px
+                            height: 4px
+                            border-radius: 100%
+                            background: #EC2227
+    &_btn
+        display: flex
+        align-items: center
+        span
+            max-width: 620px
+            font-size: 16px
+            line-height: 23px
+        .btn
+            margin-right: 60px
+            width: 273px
+            height: 72px
+
+.s-features
+    padding-top: 140px
+    &_list
+        display: flex
+        margin-bottom: 120px
+        &__block
+            position: relative
+            overflow: hidden
+            border-bottom-left-radius: 8px
+            border-bottom-right-radius: 8px
+            max-height: 100%
+            margin-right: 40px
+            flex-basis: 33.3333%
+            &:last-child
+                margin-right: 0
+            &-top
+                position: relative
+            &-bottom
+                position: relative
+                min-height: 100%
+                margin-top: -5px
+                padding: 80px 40px 40px 40px
+                background-color: #F7F8FB
+                border-bottom-left-radius: 8px
+                border-bottom-right-radius: 8px
+                z-index: 1
+            &-img
+                width: 100%
+            &-icon
+                position: absolute
+                bottom: 0
+                left: 40px
+                margin-bottom: -15px
+                z-index: 3
+        &__title
+            margin-bottom: 20px
+            font-size: 29px
+            font-weight: 900
+            line-height: 35px
+    &__desc
+        font-size: 18px
+        line-height: 24px
+        list-style: none
+        li
+            position: relative
+            padding-left: 20px
+            &:before
+                position: absolute
+                left: 0
+                top: 12px
+                content: ""
+                width: 20px
+                height: 27px
+                background: url("../img//list.png")
+                background-repeat: no-repeat
+        &-item
+            margin-bottom: 20px
+    &_bottom
+        margin-top: 40px
+        padding-bottom: 120px
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        &-icon
+            width: 40px
+            height: 40px
+        &-text
+            font-size: 18px
+            line-height: 1.3
+            margin-left: 30px
+.s-test
+    padding-bottom: 120px
+    &_title
+        font-size: 34px
+        line-height: 51px
+        margin-bottom: 80px
+        >span
+            font-weight: 700
+    .btn
+        width: 320px
+        height: 60px
+        font-size: 16px
+        font-weight: 500
+.red
+    font-weight: 700
+    color: #EC2227
+
+.s-banners
+    padding-top: 60px
+    &_mod
+        padding: 120px 0
+    &_number
+        margin-bottom: 20px
+        font-size: 29px
+        font-weight: 900
+        color: #EC2227
+.banner-slider
+    position: relative
+    .banner-slider
+        &__item
+            height: 460px
+            background-color: #F7F8FB
+    .slick-dots
+        margin-top: 40px
+    &__item
+        overflow: hidden
+        border-radius: 8px
+        // height: 480px
+        margin-right: 40px
+        color: #FFFFFF
+        background-repeat: no-repeat
+        background-position: bottom right
+        background-size: auto
+        padding: 40px 50px
+        position: relative
+        // &::before
+        //     content: ''
+        //     display: block
+        //     position: absolute
+        //     top: 50%
+        //     left: 0
+        //     height: 66px
+        //     margin-top: -33px
+        //     width: 1012px
+        //     background: url('../img/mts-logo-long.svg') no-repeat center right
+        //     z-index: 1
+        // &::after
+        //     content: ''
+        //     display: block
+        //     position: absolute
+        //     top: 0
+        //     left: 0
+        //     width: 100%
+        //     height: 100%
+        //     border-radius: 8px
+        //     background: linear-gradient(90deg, #202126 37.95%, rgba(32, 33, 38, 0.5) 61.15%, rgba(32, 33, 38, 0) 85.85%)
+        h2
+            color: #000
+            font-size: 18px
+            line-height: 22px
+            font-weight: 400
+        p
+            width: 100%
+            max-width: 670px
+            position: relative
+            z-index: 2
+            font-size: 29px
+
+.s-control
+    padding-top: 140px
+    padding-bottom: 140px
+    background-color: #F7F8FB
+    .s-title
+        margin-bottom: 40px
+    &_list
+        display: flex
+        flex-wrap: wrap
+        border-radius: 8px
+        overflow: hidden
+
+        .s-control--agent &
+            margin-top: 80px
+    &_block
+        padding: 38px
+        display: flex
+        flex-basis: calc(50% - 20px)
+        align-items: center
+        border: 1px solid #CACCD2
+        box-sizing: border-box
+        border-radius: 8px
+        &:first-child
+            margin-right: 40px
+        
+        .s-control--agent &
+            flex-basis: calc(33.333% - 26.7px)
+            height: 130px
+            margin-right: 40px
+            padding-right: 18px
+
+            &:last-child
+                margin-right: 0
+    &_icon
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-right: 30px
+        min-width: 64px
+        height: 46px
+        img
+            width: 100%
+            height: 100%
+        
+        .s-control--agent &
+            min-width: 60px
+            width: 60px
+            height: 60px
+            margin-right: 8px
+    &_desc
+        font-size: 18px
+        line-height: 21.6px
+
+.s-control--agent
+    background-color: #ffffff
+    padding-top: 107px !important
+    padding-bottom: 22px !important
+.s-clients
+    padding: 120px 0
+    .s-title
+        margin-bottom: 80px
+.clients-slider
+    width: calc( 100% + 30px )
+    margin-left: -20px
+
+    &__img
+        height: 113px
+        display: flex
+        align-items: center
+        justify-content: center
+        padding: 0 10px
+        img
+            display: block
+            filter: grayscale(100%)
+            transition: all 0.15s ease-in-out
+            &:hover
+                filter: grayscale(0%)
+        &:first-child
+            margin-bottom: 10px
+
+.s-events
+    padding: 120px 0 140px
+    background: #F7F8FB
+    .s-title
+        margin-bottom: 80px
+
+.s-documents
+    padding-bottom: 140px
+    background: #F7F8FB
+    &_block
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 100%
+        padding: 12px 30px
+        margin-bottom: 20px
+        background-color: #fff
+        border-radius: 8px
+    &_name
+        display: flex
+        align-items: center
+        font-size: 18px
+        line-height: 27px
+        img
+            margin-right: 30px
+    &_link
+        display: flex
+        align-items: center
+        font-size: 18px
+        line-height: 27px
+        a
+            margin-right: 30px
+            color: #EC2227
+    &_img
+        display: flex
+        align-items: center
+        justify-content: center
+        padding: 9px
+        background-color: #EC2227
+        border-radius: 50px
+
+.s-ask
+    padding-bottom: 140px
+    background: #F7F8FB
+
+.s-ask_block
+    border-bottom: 1px solid #CACCD2
+    &:first-child
+        border-top: 1px solid #CACCD2
+    &--available-service
+        border: 0
+
+        .btn-accordion
+            padding: 22px 0
+
+.btn-accordion
+    position: relative
+    padding: 40px 0
+    padding-right: 90px
+    border: none
+    display: flex
+    width: 100%
+    background-color: transparent
+    font-size: 29px
+    font-weight: 900
+    line-height: 35px
+    text-align: left
+    &::after
+        position: absolute
+        content: ''
+        right: 0
+        top: 50%
+        transform: translateY(-50%)
+        width: 34px
+        height: 34px
+        background-image: url('../img/eva_chevron-left-outline-b.svg')
+        background-repeat: no-repeat
+        background-size: cover
+    &.active
+        &::after
+            background-image: url('../img/eva_chevron-left-outline.svg')
+
+.panel
+    max-height: 0
+    overflow: hidden
+    font-size: 18px
+    line-height: 27px
+    transition: all .3s
+    &.active
+        margin-bottom: 40px
+
+.events-slider
+    width: calc( 100% + 40px )
+    margin-left: -40px
+    &__item
+        margin-left: 40px
+        background: #FFFFFF
+        border-radius: 8px
+    .events-end
+        .events-slider
+            &__img
+                color: #000
+            &__reg
+                color: #CACCD2
+            &__mts
+                &::before
+                    background: url('../img/mts-age-r.svg') no-repeat center
+            &::before
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 108.93%)
+    &__date
+        background: $red
+        height: 22px
+        line-height: 22px
+        border-radius: 100px
+        position: absolute
+        top: 35px
+        left: 40px
+        padding: 0 10px
+        font-weight: 700
+        color: #ffffff
+        font-size: 14px
+    &__mts
+        font-size: 16px
+        bottom: 20px
+        left: 40px
+        padding-left: 21px
+        position: absolute
+        &::before
+            content: ''
+            width: 11px
+            height: 16px
+            background: url('../img/mts-age-w.svg') no-repeat center
+            position: absolute
+            top: 0
+            left: 0
+    &__img
+        border-radius: 8px 8px 0px 0px
+        position: relative
+        overflow: hidden
+        display: block
+        height: 280px
+        background-size: cover
+        background-position: center
+        color: #ffffff
+        &::after
+            content: ''
+            display: block
+            height: 37px
+            width: 68%
+            background: url('../img/mts-events.svg') no-repeat center right
+            background-size: 100%
+            position: absolute
+            left: 0
+            bottom: 65px
+        &::before
+            content: ''
+            display: block
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 123.93%)
+            opacity: 0.6
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+    &__text
+        padding: 30px 40px 40px
+    &__info
+        display: flex
+        justify-content: space-between
+        padding-bottom: 25px
+    &__reg
+        color: $red
+    h3
+        font-weight: 900
+        font-size: 29px
+
+.s-video
+    background: #F7F8FB
+    padding-bottom: 140px
+    .s-title
+        margin-bottom: 80px
+
+.slider-one
+    &__left
+        width: 48%
+        height: 390px
+        overflow: hidden
+        border-radius: 8px 0 0 8px
+        min-height: 100%
+        display: block
+    .slider-one__item
+        display: flex
+    &__text
+        width: 52%
+        background: #ffffff
+        border-radius: 0 8px 8px 0
+        padding: 40px 40px 60px 80px
+    .slick-dots
+        position: absolute
+        bottom: 40px
+        left: 48%
+        margin-left: 80px
+
+.video-slider
+    &__type
+        height: 22px
+        line-height: 22px
+        padding: 0 8px
+        font-size: 14px
+        font-weight: bold
+        background: $red
+        color: #ffffff
+        border-radius: 15px
+        display: inline-block
+        margin: 0 10px 10px 0
+        &::before
+            content: ''
+            display: inline-block
+            background: #FFFFFF
+            width: 6px
+            height: 6px
+            border-radius: 100%
+            margin-right: 6px
+            vertical-align: middle
+    h3
+        font-weight: 900
+        font-size: 29px
+        padding: 20px 0 30px
+    p
+        line-height: 1.5
+
+.s-news,
+.s-articles
+    background: #F7F8FB
+    padding-bottom: 140px
+    .s-title
+        margin-bottom: 80px
+
+.news-slider
+    width: calc( 100% + 40px )
+    margin-left: -40px
+    &__item
+        margin-left: 40px
+        background: #FFFFFF
+        border-radius: 8px
+        overflow: hidden
+    b
+        display: block
+        padding: 30px
+        font-size: 24px
+
+.articles-slider
+    &__item
+        display: flex
+    &__mts
+        position: absolute
+        bottom: 30px
+        left: 40px
+        color: #ffffff
+        z-index: 2
+        padding-left: 21px
+        &::before
+            content: ''
+            width: 11px
+            height: 16px
+            background: url('../img/mts-age-w.svg') no-repeat center
+            position: absolute
+            top: 0
+            left: 0
+    .slider-one__left
+        position: relative
+        &::after
+            content: ''
+            display: block
+            height: 42px
+            width: 75%
+            background: url('../img/mts-events.svg') no-repeat bottom right
+            background-size: 100%
+            position: absolute
+            left: 0
+            bottom: 70px
+        img
+            width: 100%
+            height: 100%
+            object-position: center
+            object-fit: cover
+    h3
+        font-weight: 900
+        font-size: 29px
+        padding: 20px 0 30px
+    .btn
+        width: 290px
+        height: 72px
+.s-about
+    .mobile-nav__item
+        display: none
+    .mobile-nav__title.active
+        background: transparent
+        color: #000
+        border-bottom-color: #EC2227
+    .mobile-nav__title.active::after
+        transform: rotate(-180deg)
+        background: url('../img/arr-down-nav.svg') no-repeat center
+
+.s-subscribe
+    padding: 60px 0
+    color: #ffffff
+    background: $red url('../img/subscribe-news_bg.jpg') no-repeat center
+    background-size: contain
+    width: 100%
+    overflow: hidden
+    position: relative
+    &::after
+        content: ''
+        display: block
+        height: 515px
+        width: 715px
+        background: url('../img/subscribe-news.jpg') no-repeat bottom right
+        position: absolute
+        right: 0
+        bottom: 0
+        display: none
+
+.subscribe-form
+    &__title
+        font-size: 24px
+        padding-bottom: 60px
+        font-weight: 700
+    &__types
+        display: flex
+        justify-content: space-between
+        width: 900px
+    &__inputs
+        display: flex
+        padding-top: 40px
+        .label-input
+            display: block
+            margin-right: 25px
+            position: relative
+        .error
+            &-text
+                position: absolute
+                top: 100%
+                left: 28px
+                margin-top: 9px
+                display: none
+                font-weight: 700
+                font-size: 14px
+            .error-text
+                display: block
+        input
+            width: 280px
+            height: 70px
+            border: 2px solid rgba(255, 255, 255, 0.5)
+            border-radius: 8px
+            color: #FFFFFF
+            font-size: 14px
+            padding-left: 28px
+            background: none
+            margin-top: 20px
+            &:focus
+                &::placeholder
+                    color: rgba(255, 255, 255, 0.5)
+        ::placeholder
+            color: #FFFFFF
+        .btn
+            margin-top: 20px
+            width: 280px
+            height: 70px
+            font-size: 16px
+
+.label-radio
+    display: block
+    padding-left: 60px
+    font-size: 14px
+    position: relative
+    cursor: pointer
+    &__check
+        position: absolute
+        top: 12px
+        left: 0
+        border: 2px solid rgba(255, 255, 255, 0.5)
+        width: 39px
+        height: 39px
+        border-radius: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+        svg
+            fill: #fff
+            stroke: #fff
+            opacity: 0.39
+
+    input
+        display: none
+        &:checked
+            & + .label-radio
+                &__check
+                    background: #ffffff
+                    border-color: #fff
+                    svg
+                        fill: $red
+                        stroke: $red
+                        opacity: 1
+    b
+        font-size: 18px
+        display: block
+        padding-bottom: 10px
+
+.s-clients,
+.s-events,
+.s-video,
+.s-news,
+.s-articles
+    .s-title
+        padding-right: 160px
+.special
+    margin-top: 202px
+    border-radius: 8px
+    background-color: #ffffff
+    overflow: hidden
+    display: flex
+    align-items: flex-start
+    height: 480px
+.special__image-wrap
+    position: relative
+    flex-basis: calc(50% - 20px)
+    margin-right: 40px
+    height: 480px
+.special__wrapper
+    flex-basis: calc(50% - 20px)
+    padding: 50px 0 0 42px
+.special__logo
+    position: absolute
+    bottom: 85px
+    left: -61px
+.special__slogan
+    position: absolute
+    bottom: -78px
+    left: 71px
+    font-size: 16px !important
+    line-height: 150% !important
+    color: #ffffff
+    &::before
+        content: ''
+        position: absolute
+        top: 6px
+        left: -21px
+        background-image: url(../img/agent-program/egg.svg)
+        width: 10px
+        height: 14px
+.special__date 
+    font-weight: 700
+    font-size: 14px
+    line-height: 150%
+    color: #ffffff
+    background: #EC2227
+    border-radius: 100px
+    display: inline-block
+    padding: 1px 8px
+    margin-bottom: 29px
+.special__title
+    font-weight: 900
+    font-size: 38px
+    line-height: 46px
+    margin-bottom: 30px
+.special__description
+    font-size: 16px !important
+    line-height: 150% !important
+    padding-bottom: 62px !important
+    padding-right: 16px
+.s-commerce
+    margin-bottom: 64px
+    margin-top: 119px
+    padding-bottom: 64px
+.s-commerce__list
+    display: flex
+    margin-bottom: 58px
+.s-commerce__item
+    flex-basis: calc(33.333% - 26.7px)
+    margin-right: 40px
+    border: 1px solid rgba(202, 204, 210, 0.5)
+    border-radius: 8px
+    overflow: hidden
+    margin-bottom: 18px
+    &:last-child
+        margin-right: 0
+    &--grey
+        background-color: #F7F8FB
+.s-commerce__title
+    font-weight: 900
+    font-size: 29px
+    line-height: 35px
+    color: #ffffff
+    padding: 50px 40px
+.s-commerce__key
+    font-size: 18px
+    line-height: 120%
+    margin-bottom: 23px
+.s-commerce__value
+    font-weight: 700
+    font-size: 18px
+    line-height: 120%
+.s-commerce__sum
+    margin: 0 40px
+    padding: 40px 0
+    border-bottom: 1px solid rgba(202, 204, 210, 0.5)
+.s-commerce__percent
+    padding: 40px
+.s-commerce__info
+    font-size: 29px
+    line-height: 35px
+    margin-bottom: 50px
+.s-commerce__notations
+    font-size: 18px
+    line-height: 130%
+    position: relative
+    padding-left: 70px
+    &::before 
+        content: ''
+        position: absolute
+        top: 50%
+        left: 1px
+        transform: translateY(-50%)
+        display: block
+        width: 40px
+        height: 40px
+        background-image: url(../img/agent-program/snowflake.svg)
+        background-size: contain
+.s-available-service
+    padding-top: 120px
+    padding-bottom: 3px
+    margin-bottom: -21px
+    background-color: #F7F8FB
+.s-available-service__list
+    display: flex
+    flex-wrap: wrap
+.s-available-service__item
+    background-color: #ffffff
+    border-radius: 6px
+    margin-bottom: 41px
+    padding: 33px 40px
+    display: flex
+    align-items: center
+    flex-basis: calc(33.333% - 26.7px)
+    margin-right: 40px
+    &:nth-child(3n)
+        margin-right: 0
+.s-available-service__icon
+    width: 64px
+    height: 64px
+    margin-right: 25px
+.s-available-service__text
+    font-size: 18px
+    line-height: 120%
+    width: calc(100% - 96px)
+.s-banners--agent
+    padding-bottom: 22px
+.s-banners--agent .banner
+    display: flex
+.s-banners__description
+    font-size: 29px
+    line-height: 130%
+    margin-top: -40px
+    margin-bottom: 80px
+.banner-slider__item--agent
+    background-color: #F7F8FB
+    flex-basis: calc(33.333% - 26.7px)
+    margin-right: 40px
+    height: 455px
+    &:last-child
+        margin-right: 0
+    h2
+        font-size: 16px
+        line-height: 24px
+.banner-slider__item--profit
+    flex-basis: calc(50% - 20px)
+    margin-right: 40px
+    height: 255px
+    padding-left: 41px
+    background-position: 417px 28px
+
+    h2
+        max-width: 340px
+.s-ask_block--available-service
+    display: none
+@media screen and (max-width: 1600px )
+    .main-ban
+        max-height: calc( 100vh - 70px )
+        h1
+            font-size: 56px
+            padding-bottom: 25px
+        p
+            font-size: 19px
+            padding-bottom: 55px
+        .btn
+            height: 65px
+            width: 47%
+
+    .popular-services
+        padding: 80px 0
+        &__item
+            height: 530px
+            padding: 30px
+            li
+                font-size: 16px
+        h3
+            min-height: 80px
+            font-size: 24px
+        .all-services
+            font-size: 40px
+
+    .events-slider
+        &__date
+            top: 25px
+            left: 25px
+        &__mts
+            left: 25px
+        &__text
+            padding: 25px
+        &__info
+            padding-bottom: 15px
+        h3
+            font-size: 24px
+
+    .banner-slider
+        .banner-slider__item
+            height: 320px
+            background-size: 150px
+        &__item
+            h2
+            &::before
+                width: 70%
+                background-size: 100%
+    .s-video ,
+    .s-clients,
+    .s-events,
+    .s-news,
+    .s-articles
+        .s-title
+            margin-bottom: 45px
+    .slider-one
+        &__left
+            height: 340px
+        &__text
+            padding-left: 50px
+        .slick-dots
+            margin-left: 50px
+    .video-slider
+        h3
+            padding: 15px 0 20px
+    .video-slider ,
+    .articles-slider
+        h3
+            font-size: 24px
+    .articles-slider
+        .btn
+            height: 60px
+    .subscribe-form
+        &__title
+            padding-bottom: 30px
+    .s-scenario_list__item
+        p
+            min-height: 66px
+        &___title
+            padding: 15px
+    .main-ban_tabs
+        display: -webkit-box
+        width: max-content
+        &__item
+            margin-right: 25px
+    .special__logo
+        bottom: 161px
+    .special__slogan
+        bottom: 62px
+    .special
+        height: 390px
+        margin-top: 300px
+    .special__wrapper
+        padding-top: 30px
+    .special__description
+        padding-bottom: 20px !important
+    .s-commerce__value
+        min-height: 42px
+@media screen and (max-width: 1300px )
+    .main-ban
+        max-height: none//1000px
+        padding: 20px 0 60px 0
+        height: auto
+        h1
+            font-size: 48px
+        p
+            font-size: 18px
+            padding-bottom: 40px
+    .special__slogan
+        bottom: 80px
+    .special
+        margin-top: 335px
+@media screen and (max-width: 1199px )
+    .s-control
+        &_block
+            flex-basis: calc(50% - 20px)
+            &:first-child
+                margin-right: 40px
+    .popular-services
+        padding-bottom: 60px
+        &__item
+            width: 47%
+    .s-clients,
+    .s-events
+        padding: 80px 0
+    .s-articles,
+    .s-video,
+    .s-news
+        padding-bottom: 80px
+    .news-slider
+        b
+            font-size: 20px
+    .video-slider
+        h3
+            padding-top: 5px
+    .video-slider h3,
+    .articles-slider h3
+        font-size: 22px
+
+    .banner-slider__item
+        padding: 40px
+    
+    .banner-slider__item--agent
+        background-size: auto 175px
+    .banner-slider__item--profit
+        background-size: auto 150px
+        background-position: 265px 50px
+        padding-right: 180px
+        height: 340px
+    .special
+        height: 300px
+    .special__date 
+        font-weight: 700
+        font-size: 12px
+        line-height: 150%
+        border-radius: 100px
+        padding: 0px 7px
+        margin-bottom: 20px
+    .special__title
+        font-weight: 900
+        font-size: 20px
+        line-height: 24px
+        margin-bottom: 20px
+    .special__description
+        font-size: 12px !important
+        line-height: 150% !important
+        padding-bottom: 30px !important
+    .special__wrapper
+        padding-left: 0
+    .special__logo
+        bottom: 227px
+    .special__slogan
+        bottom: 155px
+    .s-control--agent .s-control_icon
+        min-width: 32px
+        width: 32px
+        height: 32px
+        margin-right: 15px
+    .s-control_desc
+
+        .s-control--agent &
+            font-size: 12px
+            line-height: 1.2
+    .s-control--agent .s-control_block
+        padding: 20px
+        height: 110px
+    .s-available-service__item
+        flex-basis: calc(50% - 20px)
+        &:nth-child(3n)
+            margin-right: 0
+        margin-right: 40px !important
+        &:nth-child(2n)
+            margin-right: 0 !important
+        
+@media screen and (max-width: 950px )
+    .s-about
+        .mobile-nav__title
+            padding: 0
+            img
+                margin-right: 15px
+    .main-ban_tabs
+        margin-bottom: 185px
+    .main-ban
+        &__text
+            width: 500px
+            max-width: 100%
+        p
+            font-size: 17px
+    .s-test
+        &_title
+            font-size: 18px
+        .btn
+            width: 280px
+    .s-control
+        &_block
+            flex-basis: 100%
+            margin-bottom: 10px
+            width: 100%
+            &:first-child
+                margin-right: 0
+    .banner-slider
+        .banner-slider__item
+            height: 300px
+        &__item
+            h2
+                max-width: 450px
+                height: 160px
+            p
+                font-size: 18px
+
+            &--agent
+                height: 375px
+                background-size: 100% 216px
+                background-position: center bottom
+                background-color: #F7F8FB
+                margin-bottom: 20px
+                padding-top: 30px !important
+                padding-right: 27px !important
+
+                h2
+                    font-size: 14px !important
+                    line-height: 150% !important
+                    max-width: none !important
+
+                p
+                    font-size: 22px !important
+                    line-height: 26px !important
+                
+                span
+                    font-weight: 900
+                    color: #EC2227
+            
+            &--profit
+                height: 400px
+                background-size: 295px 200px
+                background-position: center 180px
+
+    .s-clients
+        padding-bottom: 65px
+    .subscribe-form
+        &__types
+            width: 100%
+            br
+                content: ' '
+                display: inline
+        &__inputs
+            padding-top: 20px
+            input
+                width: 240px
+                height: 60px
+                padding-left: 15px
+            .btn
+                height: 60px
+            .error-text
+                left: 15px
+                font-size: 12px
+                margin-top: 2px
+    .banner-slider__item
+        padding: 15px
+        margin-right: 20px
+
+        .s-banners--agent & 
+            margin-right: 0
+
+    .s-scenario_list
+        flex-wrap: wrap
+    .s-scenario_list__item
+        flex-basis: 100%
+
+    .s-features_list, .s-config_list
+        flex-wrap: wrap
+
+    .s-features_list__block
+        flex-basis: 100%
+    .s-config_block
+        flex-basis: 100%
+    .btn-accordion, .s-control_text
+        font-size: 20px
+        line-height: 25px
+    .popular-services .warning_text
+        font-size: 15px
+        line-height: 1
+    .s-scenario .s-scenario_list__item___desc
+        max-height: 0
+        overflow: hidden
+        transition: all .3s
+    .s-scenario_list__item___title
+        margin-bottom: 0
+        background-color: #F7F8FB
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            right: 20px
+            bottom: 20px
+            width: 16px
+            height: 16px
+            background-image: url('../img/eva_chevron-left-outline.png')
+            background-repeat: no-repeat
+            background-size: contain
+    .s-scenario_list__item___title.active
+        margin-bottom: 40px
+        &::after
+            background-image: url('../img/eva_chevron-left-outli1ne.png')
+    .s-scenario_list__item
+        margin-bottom: 20px
+    .main-ban_tabs__block
+        -ms-overflow-style: none
+        overflow: -moz-scrollbars-none
+        &::-webkit-scrollbar
+            width: 0
+    .s-about_top
+        display: none
+    .s-about
+        .mobile-nav__item
+            display: block
+    .s-about_title
+        margin-bottom: 20px
+        font-size: 28px
+    .s-about_text
+        font-size: 20px
+        line-height: 1.3
+    .s-about_content
+        padding: 60px 0
+    .s-title
+        font-size: 34px
+    .s-banners
+        padding-top: 60px
+        padding-bottom: 60px
+
+        &--agent
+           padding-top: 0 !important
+
+           .s-banners__description
+                font-size: 18px
+                line-height: 130%
+                margin-top: -17px
+                margin-bottom: 40px
+
+    .s-scenario_subtitle
+        margin-bottom: 40px
+        font-size: 18px
+    .s-config_block, .s-features_list__block
+        margin-right: 0
+        margin-bottom: 30px
+        &:last-child
+            margin-bottom: 0
+    .special
+        display: block
+        margin-top: 66px
+        padding: 0 20px 29px
+        height: auto
+    .special__wrapper
+        padding: 0
+    .special__image-wrap
+        margin: 0 -20px 27px
+    .special__logo
+        bottom: 63px
+        left: -32px
+    .special__slogan
+        bottom: -16px
+        left: 40px
+        font-size: 12px !important
+        line-height: 150% !important
+        &::before
+            top: 1px
+            left: -19px
+            width: 10px
+            height: 14px
+    .special__date 
+        font-weight: 700
+        font-size: 12px
+        line-height: 150%
+        border-radius: 100px
+        padding: 0px 7px
+        margin-bottom: 20px
+    .special__title
+        font-weight: 900
+        font-size: 20px
+        line-height: 24px
+        margin-bottom: 20px
+    .special__description
+        font-size: 12px !important
+        line-height: 150% !important
+        padding-bottom: 30px !important
+    .special__image-wrap
+        height: auto
+    .special__image
+        width: 100%
+    .s-control--agent
+        padding-top: 60px !important
+        .s-control_list
+            display: block
+            margin-top: 0
+        .s-control_block
+            margin-right: 0
+    .s-banners--agent .banner
+        display: block
+    .banner-slider__item--agent
+        margin-right: 0
+    .s-commerce__list 
+        display: block
+    .s-commerce__item
+        margin-right: 0
+    .breadcrumbs--agent
+        padding-bottom: 640px
+    .s-control--agent .s-control_block
+        height: auto
+    .banner-slider__item--agent
+        background-size: auto
+        background-position: right bottom
+    .s-commerce__title
+        background-size: cover
+    .s-available-service__list
+        display: block
+    .s-available-service__item
+        margin-right: 0 !important
+    .s-available-service__hidden
+        display: none
+    .s-ask_block--available-service
+        display: block
+    .s-commerce
+        margin-top: 0
+    .main-ban--agent
+        background-position: -1000px -105px
+    .s-commerce__value
+        min-height: auto
+@media screen and (min-width: 750px )
+    .main-ban
+        .container
+            background: none!important
+
+@media screen and (max-width: 750px )
+    .main-ban
+        padding-top: 20px
+        &__text
+            padding-top: 60px
+        .container
+            background-position: center top 25px
+            background-repeat: no-repeat
+            // padding-top: 300px
+    .breadcrumbs
+        padding-top: 19px
+        padding-bottom: 0
+        flex-wrap: wrap
+        a
+            font-size: 12px
+    .breadcrumbs_item
+        margin-bottom: 9px
+    .main-ban_tabs__item a
+        font-size: 14px
+    .main-ban_tabs__item
+        padding-bottom: 12px
+    .s-features
+        &_bottom
+            padding-bottom: 0
+    .popular-services
+        padding: 0
+        padding-bottom: 60px
+        h3
+            min-height: 20px
+            padding-bottom: 25px
+        &__list
+            display: block
+        &__item
+            width: 100%
+            height: auto
+            padding-bottom: 0
+        &__img
+            position: static
+            margin-left: auto
+            margin-right: -30px
+            max-width: 70%
+            margin-top: 10px
+        .all-services
+            display: flex
+            align-items: center
+            justify-content: center
+            height: 65px
+            padding: 0
+            font-size: 18px
+            font-weight: bold
+            br
+                content: ' '
+                display: inline
+            &::after
+                position: static
+                background-size: cover
+                width: 19px
+                height: 19px
+                margin-left: 15px
+    .banner-slider
+        padding-bottom: 90px
+        &__item
+            &::before
+                width: 90%
+            p
+                font-size: 16px
+    .s-articles,
+    .s-video,
+    .s-news
+        padding-bottom: 60px
+    .s-clients,
+    .s-events,
+    .s-video,
+    .s-news,
+    .s-articles
+        .s-title
+            padding-right: 0px
+
+    .clients-slider
+        padding-bottom: 80px
+        width: 100%
+        margin-left: 0
+        &__item
+            padding-left: 0
+        &__img
+            padding-left: 0
+            padding-right: 15px
+
+    .s-events
+        padding: 60px 0
+    .events-slider,
+    .news-slider
+        width: 100%
+        margin-left: 0
+        padding-bottom: 90px
+        &__item
+            margin-left: 0
+
+    .slider-one
+        padding-bottom: 90px
+        .slider-one__item
+            display: block
+        &__left
+            width: 100%
+            border-radius: 8px 8px 0 0
+            height: 280px
+        &__text
+            width: 100%
+            margin: 0
+            padding: 25px
+
+    .subscribe-form
+        &__types
+            display: block
+        &__inputs
+            padding-top: 1px
+            flex-wrap: wrap
+        .label-radio
+            margin-bottom: 25px
+
+    .label-radio
+        max-width: 300px
+        b
+            padding-bottom: 6px
+    .s-subscribe
+        background: $red url('../img/subscribe-news.jpg') no-repeat center bottom
+        background-size: 400px
+        position: relative
+        padding-bottom: 200px
+        // &::after
+        //     content: ''
+        //     display: block
+        //     position: relative
+        //     margin-top: 20px
+        //     height: 180px
+        //     width: 100%
+        //     background: url('../img/subscribe-news.jpg') no-repeat center top
+        //     background-size: 400px auto
+        //     opacity: 0.3
+    .s-clients
+        padding: 60px 0
+    .subscribe-form
+        &__inputs
+            justify-content: space-between
+            input
+                width: 100%
+            .btn
+                width: calc( 50% - 10px )
+                margin-top: 25px
+                font-size: 16px
+            .label-input
+                width: calc( 50% - 10px )
+                margin-right: 0
+
+    .s-features_bottom__block
+        flex-basis: 100%
+
+    .slick-slide img
+        width: 100%
+    .s-scenario_list__item
+        flex-basis: 100%
+    .s-scenario_btn
+        flex-wrap: wrap
+        a
+            margin-bottom: 30px
+    .s-scenario_list
+        margin-bottom: 40px
+    .s-documents_name
+        font-size: 10px
+        line-height: 1.3
+        img
+            margin-right: 10px
+            max-width: 28px
+    .s-documents_link
+        a
+            display: none
+    .s-documents_img
+        padding: 0
+    .s-documents_block
+        padding: 12px 20px
+        gap: 20px
+    .s-documents
+        padding-bottom: 20px
+    .s-control_number
+        min-width: 40px
+        height: 40px
+        font-size: 18px
+    .s-control_desc
+        font-size: 14px
+        line-height: 1.3
+
+        .s-control--agent &
+            font-size: 12px
+            line-height: 1.2
+
+    .s-control_block
+        padding: 20px
+    .popular-services .warning_text
+        font-size: 10px
+    .popular-services_warning
+        .warning
+            margin-right: 15px
+    .s-scenario_list__item___title
+        font-size: 14px
+    .s-scenario_btn .btn
+        width: 100%
+        margin-right: 0
+    .s-features
+        padding: 60px 0
+    .s-test
+        padding-bottom: 60px
+        &_title
+            font-size: 18px
+            padding-bottom: 20px
+            margin-bottom: 0
+            span
+                display: block
+                margin-top: 10px
+        .btn
+            width: 280px
+    .s-control
+        padding-top: 60px
+        padding-bottom: 80px
+        &_block
+            width: 100%
+            &:first-child
+                margin-right: 0
+    .s-scenario_list__item___desc ul li
+        font-size: 14px
+    .s-features_list
+        margin-bottom: 40px
+    .s-control_text
+        margin-bottom: 40px
+    .s-control
+        &_block
+            margin-bottom: 10px
+    .btn-accordion
+        font-size: 16px
+        line-height: 1.3
+    .s-ask
+        padding-bottom: 60px
+    .main-ban--agent
+        background-position: -1100px -105px
+        .main-ban__text
+            padding-top: 585px
+@media screen and (max-width: 550px )
+    .breadcrumbs--agent
+        margin-top: 0
+    .main-ban
+        padding-top: 0
+        background-image: url(../img//bgm-min.png)
+        background-size: cover
+        background-position: center top
+        &__text
+            padding-top: 220px
+        &__text--agent
+            padding-top: 430px
+        &--agent
+            background-image: url(../img/agent-program/agent-program-bg-mob.png)
+            background-size: contain
+    .s-features__img
+        position: static
+        transform: translateY(0%)
+    .s-features_list__title
+        font-size: 14px
+        line-height: 1.3
+        margin-bottom: 15px
+    .s-features__desc
+        margin-bottom: 20px
+        font-size: 12px
+        line-height: 1.3
+    .s-test
+        &_title
+            font-size: 18px
+            padding-bottom: 20px
+        .btn
+            width: 280px
+    .s-control
+        &_block
+            width: 100%
+            &:first-child
+                margin-right: 0
+    .banner-slider
+        &__item
+            // padding: 100px 30px 30px
+            overflow: hidden
+            &::before
+                margin-left: -20px
+            &::after
+                background: linear-gradient(360deg, #202126 0%, rgba(32, 33, 38, 0.5) 66.82%, rgba(32, 33, 38, 0) 100%)
+            h2
+                // font-size: 24px
+    .subscribe-form
+        .error-text
+            position: static
+        &__inputs
+            input
+                margin-top: 0
+            .label-input,
+            .btn
+                width: 100%
+                margin-top: 15px
+        &__title
+            font-size: 18px
+    
+    .s-control--agent .s-control__block
+        height: 82px
+    .s-control--agent
+        padding-top: 32px !important
+        padding-bottom: 72px !important
+    .s-commerce__title
+        font-weight: 900
+        font-size: 22px
+        line-height: 26px
+        color: #ffffff
+        padding: 30px 20px
+    .s-commerce__key
+        font-size: 14px
+        line-height: 120%
+        margin-bottom: 16px
+    .s-commerce__value
+        font-weight: 700
+        font-size: 16px
+        line-height: 120%
+    .s-commerce__sum
+        padding: 30px 20px
+        border-bottom: 1px solid rgba(202, 204, 210, 0.5)
+    .s-commerce__percent
+        padding: 30px 20px
+    .s-commerce__info
+        font-size: 18px
+        line-height: 130%
+        margin-bottom: 30px
+    .s-commerce__notations
+        font-size: 12px
+        line-height: 130%
+        position: relative
+        padding-left: 44px
+        &::before 
+            content: ''
+            position: absolute
+            //top: 11px
+            left: 1px
+            display: block
+            width: 28px
+            height: 28px
+            background-image: url(../img/agent-program/snowflake.svg)
+    .s-available-service
+        padding-top: 62px
+        padding-bottom: 3px
+        background-color: #F7F8FB
+    .s-available-service__item
+        background-color: #ffffff
+        border-radius: 6px
+        margin-bottom: 10px
+        padding: 21px 20px
+        display: flex
+        align-items: center
+    .s-available-service__hidden
+        display: none
+    .s-available-service__icon
+        width: 32px
+        height: 32px
+        margin-right: 20px
+    .s-available-service__text
+        font-size: 14px
+        line-height: 120%
+    .s-ask_block--available-service
+        display: block
+@media screen and (max-width: 450px )
+    .slider-one
+        padding-bottom: 60px
+    .main-ban
+        h1
+            font-size: 42px
+        p
+            font-size: 16px
+        &__btns
+            display: block
+        .btn
+            width: 100%
+            height: 55px
+            &:first-child
+                margin-bottom: 15px
+        &__text--agent
+            padding-top: 305px !important
+    .popular-services
+        &__item
+            padding: 30px 20px 0
+            margin-bottom: 20px
+            &:nth-child(5)
+                margin-bottom: 40px
+            li
+                font-size: 14px
+                padding-left: 19px
+                &::before
+                    top: 7px
+        .all-services
+            height: 55px
+            font-size: 14px
+            font-weight: 400
+            &::after
+                width: 14px
+                height: 14px
+                background: url('../img/arr45-mini.svg') no-repeat center
+        &__img
+            margin-right: -20px
+
+    .banner-slider
+        padding-bottom: 65px
+        .banner-slider__item
+            display: flex
+            justify-content: space-between
+            flex-direction: column
+        &__item
+            padding: 70px 20px 50px
+            &::before
+                height: 40px
+                top: 64%
+                width: 95%
+            h2
+                height: auto
+                font-size: 15px
+                max-width: 70%
+            p
+                font-size: 12px
+        .slick-dots
+            margin-top: 30px
+    .clients-slider
+        padding-bottom: 50px
+
+    .s-about
+        &_text
+            font-size: 16px
+
+    .s-features
+        &_list
+            &__block
+                &-icon
+                    left: 20px
+                    width: 60px
+                    height: 60px
+                &-bottom
+                    min-height: auto
+                    padding: 45px 20px 20px 20px
+        &_bottom
+            margin-top: 0
+            padding-bottom: 0
+            &-text
+                font-size: 10px
+    .s-test
+        &_title
+            font-size: 18px
+            padding-bottom: 40px
+        .btn
+            width: 280px
+            height: 55px
+    .s-control
+        &_block
+            width: 100%
+            max-width: 100%
+            &:first-child
+                margin-right: 0
+    .events-slider
+        &__img
+            height: 180px
+            &::after
+                width: 90%
+                bottom: 70px
+        &__date
+            font-size: 12px
+            height: 18px
+            line-height: 18px
+        &__info
+            display: block
+        &__type
+            padding-bottom: 8px
+        h3
+            font-size: 20px
+        &__text
+            padding: 20px 20px 30px
+    .video-slider
+        &__type
+            font-size: 12px
+            height: 18px
+            line-height: 18px
+    .events-slider,
+    .news-slider
+        padding-bottom: 70px
+    .s-video,
+    .s-clients,
+    .s-events,
+    .s-news,
+    .s-articles
+        .s-title
+            margin-bottom: 40px
+    .slider-one
+        &__left
+            height: 220px
+    .video-slider,
+    .articles-slider
+        h3
+            font-size: 24px
+    .banner-slider__item--agent
+        background-size: auto 216px
+    .special__image-wrap
+        height: 180px
+        .special__image
+            height: 100%
+    .s-control--agent .s-control_block
+        height: 82px
+    .banner-slider__item--agent
+        background-position: 20px bottom
+    .s-commerce
+        margin-top: 25px
+        margin-bottom: 0
+    .s-commerce__sum
+        margin: 0
+        padding: 30px 20px
+    .s-commerce__list
+        margin-bottom: 39px
+    .s-available-service__text
+        width: auto
+    .s-available-service
+        padding-bottom: 21px
+@media screen and (max-width: 400px )
+    .slider-one
+        &__left
+            height: 180px
+
+    .video-slider,
+    .articles-slider
+        h3
+            font-size: 20px
+    .articles-slider
+        .btn
+            width: 100%
+
+@media screen and (max-width: 360px )
+    .main-ban
+        h1
+            font-size: 36px
+        p
+            font-size: 15px
+    .slider-one
+        &__left
+            height: 160px
+    

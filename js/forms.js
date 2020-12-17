@@ -1,0 +1,1 @@
+function closeModals(){$.fancybox.close()}$("form").submit((function(o){return data_form=$(this).serialize(),closeModals(),!1}));

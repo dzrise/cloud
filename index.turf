@@ -1,0 +1,686 @@
+<!-- @import #sorse/kit/header.kit-->
+<!-- @import #sorse/kit/sevice-nav.kit-->
+<!-- @import #sorse/kit/mobile-nav.kit-->
+
+
+<main>
+    <section class="main-ban main-ban--agent">
+        <div class="container">
+            <ul class="breadcrumbs breadcrumbs--agent">
+                <li class="breadcrumbs_item"><a href="#">Главная</a></li>
+                <li class="breadcrumbs_item"><a href="#">Партнерская программа</a></li>
+                <li class="breadcrumbs_item"><a href="#">Агентская программа</a></li>
+            </ul>
+            <div class="main-ban__text main-ban__text--agent">
+                <h1>Агентская программа</h1>
+                <p>Выводите на рынок собственные ИТ-продукты на базе облачных сервисов #CloudMTS или просто рекомендуйте нас своим клиентам и партнерам</p>
+                <div class="main-ban__btns">
+                    <a href="#popup-consult" class="btn btn-red" data-fancybox>Стать агентом</a>
+                </div>
+            </div>
+            <div class="special">
+                <div class="special__image-wrap wow fadeInUp">
+                    <img class="special__image " src="img/agent-program/special.jpg" alt="">
+                    <img class="special__logo" src="img/mts-logo-long.svg" alt="">
+                    <p class="special__slogan">
+                        Быть лучше каждый день
+                    </p>
+                </div>
+                <div class="special__wrapper">
+                    <div class="special__date wow fadeInUp">
+                        01.10.2020 - 31.11.2020
+                    </div>
+                    <h3 class="special__title wow fadeInUp">
+                        Большие возможности по&nbsp;маленьким ценам
+                    </h3>
+                    <p class="special__description wow fadeInUp">
+                        МТС автоматизировала процесс мониторинга информации на более, чем 10 000 приборах учета АО «НЭСК-электросети». Данные с устройств аккумулируется в облаке провайдера.
+                    </p>
+                    <a href="#popup-consult" class="btn btn-red wow fadeInUp" data-fancybox>Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-control s-control--agent">
+        <div class="container">
+            <h2 class="s-title wow fadeInUp">Выгодное решение</h2>
+            <div class="s-control_list wow fadeInUp">
+                <div class="s-control_block">
+                    <div class="s-control_icon"><img src="img/agent-program/profit.svg" alt=""></div>
+                    <div class="s-control_desc">
+                        Агентское вознаграждение в размере 10&#8209;20% от платежей клиентов
+                    </div>
+                </div>
+                <div class="s-control_block">
+                    <div class="s-control_icon"><img src="img/agent-program/cloud_music.svg" alt=""></div>
+                    <div class="s-control_desc">
+                        Все взаимодействие с клиентами осуществляет #CloudMTS
+                    </div>
+                </div>
+                <div class="s-control_block">
+                    <div class="s-control_icon"><img src="img/agent-program/lunching.svg" alt=""></div>
+                    <div class="s-control_desc">
+                        Мы предоставляем партнерам маркетинговые инструменты для старта продаж
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-banners s-banners_mod s-banners--agent">
+            <div class="container wow fadeInUp">
+                <h2 class="s-title wow fadeInUp">Механика агентской программы</h2>
+                <div class="banner">
+                    <div class="banner-slider__item banner-slider__item--agent wow fadeInUp" style="background-image: url('img/agent-program/s1.png');">
+                        <p class="s-banners_number">01</p>
+                        <h2>Агент передает запрос клиента в&nbsp;#CloudMTS</h2>
+                    </div>
+                    <div class="banner-slider__item banner-slider__item--agent wow fadeInUp" style="background-image: url('img/agent-program/s2.png');">
+                        <p class="s-banners_number">02</p>
+                        <h2>Мы обеспечиваем высокую конверсию сделки и заключаем договор от имени #CloudMTS</h2>
+                    </div>
+                    <div class="banner-slider__item banner-slider__item--agent wow fadeInUp" style="background-image: url('img/agent-program/s3.png');">
+                        <p class="s-banners_number">03</p>
+                        <h2>Партнер получает ежемесячное агентское вознаграждение</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-banners s-banners_mod s-banners--agent">
+            <div class="container wow fadeInUp">
+                <h2 class="s-title wow fadeInUp">Постоянно увеличиваем вашу&nbsp;прибыль</h2>
+                <p class="s-banners__description">
+                    Мы заботимся о росте вашего дохода даже после подключения клиента. Как это работает?
+                </p>
+                <div class="banner">
+                    <div class="banner-slider__item banner-slider__item--agent banner-slider__item--profit wow fadeInUp" style="background-image: url('img/agent-program/s4.png');">
+                        <p class="s-banners_number">01</p>
+                        <h2>Вы привели клиента с ежемесячным платежом в 200 000 рублей и начали получать агентское вознаграждение в&nbsp;размере 
+                            <span>
+                                40 000 рублей
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="banner-slider__item banner-slider__item--agent banner-slider__item--profit wow fadeInUp" style="background-image: url('img/agent-program/s5.png');">
+                        <p class="s-banners_number">02</p>
+                        <h2>Менеджер развития #CloudMTS продал дополнительные сервисы этому клиенту. Ежемесячный счет клиента стал равен 300&nbsp;000 рублей, а ваше вознаграждение выросло до 
+                            <span>
+                                60 000 рублей
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-commerce">
+            <div class="container wow fadeInUp">
+                <h2 class="s-title wow fadeInUp">Коммерческие условия</h2>
+                <div class="s-commerce__list">
+                    <div class="s-commerce__item wow fadeInUp">
+                        <div class="s-commerce__title" style="background-image: url('img/agent-program/c1.jpg');">
+                            Silver
+                        </div>
+                        <div class="s-commerce__sum">
+                            <div class="s-commerce__key">
+                                Общая сумма оплаченных начислений, рублей в месяц, без НДС
+                            </div>
+                            <div class="s-commerce__value">
+                                до 50 000 рублей
+                            </div>
+                        </div>
+                        <div class="s-commerce__percent">
+                            <div class="s-commerce__key">
+                                Процент вознаграждения
+                            </div>
+                            <div class="s-commerce__value">
+                                10%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s-commerce__item s-commerce__item--grey wow fadeInUp">
+                        <div class="s-commerce__title" style="background-image: url('img/agent-program/c2.jpg');">
+                            Gold
+                        </div>
+                        <div class="s-commerce__sum">
+                            <div class="s-commerce__key">
+                                Общая сумма оплаченных начислений, рублей в месяц, без НДС
+                            </div>
+                            <div class="s-commerce__value">
+                                от 50 001 рублей до 200 000 рублей
+                            </div>
+                        </div>
+                        <div class="s-commerce__percent">
+                            <div class="s-commerce__key">
+                                Процент вознаграждения
+                            </div>
+                            <div class="s-commerce__value">
+                                15%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s-commerce__item wow fadeInUp">
+                        <div class="s-commerce__title" style="background-image: url('img/agent-program/c3.jpg');">
+                            Platinum
+                        </div>
+                        <div class="s-commerce__sum">
+                            <div class="s-commerce__key">
+                                Общая сумма оплаченных начислений, рублей в месяц, без НДС
+                            </div>
+                            <div class="s-commerce__value">
+                                от 200 001 рублей
+                            </div>
+                        </div>
+                        <div class="s-commerce__percent">
+                            <div class="s-commerce__key">
+                                Процент вознаграждения
+                            </div>
+                            <div class="s-commerce__value">
+                                20%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-commerce__info">
+                    Скидка для клиента на услуги предоставляется по согласованию с&nbsp;менеджером партнера
+                </div>
+                <div class="s-commerce__notations">
+                    Полный список условий указан в агентском договоре. Детали уточняйте у менеджера партнерского направления.
+                </div>
+            </div>
+        </section>
+        
+        <section class="s-available-service">
+            <div class="container wow fadeInUp">
+                <h2 class="s-title wow fadeInUp">Доступные сервисы</h2>
+                <div class="s-available-service__list">
+                    <div class="s-available-service__item">
+                        <img class="s-available-service__icon" src="img/agent-program/icon1.svg">
+                        <div class="s-available-service__text">
+                            Elastic Cloud
+                        </div>
+                    </div>
+                    <div class="s-available-service__item">
+                        <img class="s-available-service__icon" src="img/agent-program/icon2.svg">
+                        <div class="s-available-service__text">
+                            Резервное копирование на базе Veeam/Acronis/Commvault
+                        </div>
+                    </div>
+                    <div class="s-available-service__item">
+                        <img class="s-available-service__icon" src="img/agent-program/icon3.svg">
+                        <div class="s-available-service__text">
+                            Объектное хранилище
+                        </div>
+                    </div>
+                    <div class="s-available-service__item">
+                        <img class="s-available-service__icon" src="img/agent-program/icon4.svg">
+                        <div class="s-available-service__text">
+                            IaaS 152 Ф-З
+                        </div>
+                    </div>
+                    <div class="s-available-service__item">
+                        <img class="s-available-service__icon" src="img/agent-program/icon5.svg">
+                        <div class="s-available-service__text">
+                            Диск #CloudMTS
+                        </div>
+                    </div>
+                    <div class="s-available-service__item">
+                        <img class="s-available-service__icon" src="img/agent-program/icon6.svg">
+                        <div class="s-available-service__text">
+                            Корпоративная почта #CloudMTS
+                        </div>
+                    </div>
+                    <div class="s-available-service__item s-available-service__hidden">
+                        <img class="s-available-service__icon" src="img/agent-program/icon7.svg">
+                        <div class="s-available-service__text">
+                            Virtual Desktops
+                        </div>
+                    </div>
+                    <div class="s-available-service__item s-available-service__hidden">
+                        <img class="s-available-service__icon" src="img/agent-program/icon8.svg">
+                        <div class="s-available-service__text">
+                            Containerum Managed Kubernetes
+                        </div>
+                    </div>
+                    <div class="s-available-service__item s-available-service__hidden">
+                        <img class="s-available-service__icon" src="img/agent-program/icon9.svg">
+                        <div class="s-available-service__text">
+                            Защита веб-приложений WAF
+                        </div>
+                    </div>
+                    <div class="s-available-service__item s-available-service__hidden">
+                        <img class="s-available-service__icon" src="img/agent-program/icon10.svg">
+                        <div class="s-available-service__text">
+                            GPU SuperCloud
+                        </div>
+                    </div>
+                    <div class="s-available-service__item s-available-service__hidden">
+                        <img class="s-available-service__icon" src="img/agent-program/icon11.svg">
+                        <div class="s-available-service__text">
+                            Disaster Recovery
+                        </div>
+                    </div>
+                    <div class="s-available-service__item s-available-service__hidden">
+                        <img class="s-available-service__icon" src="img/agent-program/icon12.svg">
+                        <div class="s-available-service__text">
+                            Доступ в интернет
+                        </div>
+                    </div>
+                </div>
+                <div class="s-ask_block s-ask_block--available-service wow fadeInUp">
+                    <button class="btn-accordion accordion">
+                        Показать больше
+                    </button>
+                    <div class="panel">
+                        <div class="s-available-service__list">
+                            <div class="s-available-service__item">
+                                <img class="s-available-service__icon" src="img/agent-program/icon7.svg">
+                                <div class="s-available-service__text">
+                                    Elastic Cloud
+                                </div>
+                            </div>
+                            <div class="s-available-service__item">
+                                <img class="s-available-service__icon" src="img/agent-program/icon8.svg">
+                                <div class="s-available-service__text">
+                                    Резервное копирование на базе Veeam/Acronis/Commvault
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="s-events">
+            <div class="container">
+                <h2 class="s-title wow fadeInUp"><a href="#">Мероприятия <img src="img/arr-title.svg" alt=""></a></h2>
+                <div class="events-slider wow fadeInUp">
+                    <div class="events-slider__item">
+                        <a href="#" class="events-slider__img" style="background-image: url('img/main/event1.png');">
+                            <span class="events-slider__date">18 сентября 2020</span>
+                            <span class="events-slider__mts">Быть лучше каждый день</span>
+                        </a>
+                        <div class="events-slider__text">
+                            <div class="events-slider__info">
+                                <div class="events-slider__type">Практическая онлайн-конференция</div>
+                                <div class="events-slider__reg">Регистрация открыта</div>
+                            </div>
+                            <h3><a href="#">Все, что вы хотели знать о миграции в облако провайдера</a></h3>
+                        </div>
+                    </div>
+                    <div class="events-slider__item events-end">
+                        <a href="#" class="events-slider__img" style="background-image: url('img/main/event2.png');">
+                            <span class="events-slider__date">18 сентября 2020</span>
+                            <span class="events-slider__mts">Быть лучше каждый день</span>
+                        </a>
+                        <div class="events-slider__text">
+                            <div class="events-slider__info">
+                                <div class="events-slider__type">Практическая онлайн-конференция</div>
+                                <div class="events-slider__reg">Регистрация закрыта</div>
+                            </div>
+                            <h3><a href="#">Все, что вы хотели знать о миграции в облако провайдера</a></h3>
+                        </div>
+                    </div>
+                    <div class="events-slider__item">
+                        <a href="#" class="events-slider__img" style="background-image: url('img/main/event1.png');">
+                            <span class="events-slider__date">18 сентября 2020</span>
+                            <span class="events-slider__mts">Быть лучше каждый день</span>
+                        </a>
+                        <div class="events-slider__text">
+                            <div class="events-slider__info">
+                                <div class="events-slider__type">Практическая онлайн-конференция</div>
+                                <div class="events-slider__reg">Регистрация открыта</div>
+                            </div>
+                            <h3><a href="#">Все, что вы хотели знать о миграции в облако провайдера</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="s-video">
+            <div class="container">
+                <h2 class="s-title wow fadeInUp"><a href="#">Видео <img src="img/arr-title.svg" alt=""></a></h2>
+                <div class="video-slider slider-one wow fadeInUp">
+                    <div class="slider-one__item">
+                        <div class="video-player  slider-one__left">
+                            <div id="player" class="player-frame"></div>
+                            <div class="video-player__placeholder" data-id="0"
+                                style="background-image: url('img/main/video.jpg');">
+                                <div class="video-player__time">13:25</div>
+                            </div>
+                        </div>
+                        <div class="slider-one__text">
+                            <div class="video-slider__type">Вебинар</div>
+                            <h3>МТС перенесла в облако электросети Краснодарского края</h3>
+                            <p>МТС автоматизировала процесс мониторинга информации на более, чем 10 000 приборах учета
+                                АО «НЭСК-электросети». Данные с устройств аккумулируется в облаке провайдера. </p>
+                        </div>
+                    </div>
+                    <div class="slider-one__item">
+                        <div class="video-player  slider-one__left">
+                            <div id="player2" class="player-frame"></div>
+                            <div class="video-player__placeholder" data-id="1"
+                                style="background-image: url('img/main/video.jpg');">
+                                <div class="video-player__time">13:25</div>
+                            </div>
+                        </div>
+                        <div class="slider-one__text">
+                            <div class="video-slider__type">Вебинар</div>
+                            <h3>МТС перенесла в облако электросети Краснодарского края</h3>
+                            <p>МТС автоматизировала процесс мониторинга информации на более, чем 10 000 приборах учета
+                                АО «НЭСК-электросети». Данные с устройств аккумулируется в облаке провайдера. </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="s-news">
+            <div class="container">
+                <h2 class="s-title wow fadeInUp"><a href="#">Новости <img src="img/arr-title.svg" alt=""></a></h2>
+                <div class="news-slider wow fadeInUp">
+                    <div class="news-slider__item">
+                        <a href="#">
+                            <img src="img/main/news1.jpg" alt="">
+                            <b>Корпорация развития Дальнего Востока «мигрировала» в облако</b>
+                        </a>
+                    </div>
+                    <div class="news-slider__item">
+                        <a href="#">
+                            <img src="img/main/news2.jpg" alt="">
+                            <b>Корпорация развития Дальнего Востока «мигрировала» в облако</b>
+                        </a>
+                    </div>
+                    <div class="news-slider__item">
+                        <a href="#">
+                            <img src="img/main/news3.jpg" alt="">
+                            <b>Корпорация развития Дальнего Востока «мигрировала» в облако</b>
+                        </a>
+                    </div>
+                    <div class="news-slider__item">
+                        <a href="#">
+                            <img src="img/main/news2.jpg" alt="">
+                            <b>Корпорация развития Дальнего Востока «мигрировала» в облако</b>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="s-articles">
+            <div class="container">
+                <h2 class="s-title wow fadeInUp"><a href="#">Статьи <img src="img/arr-title.svg" alt=""></a></h2>
+                <div class="articles-slider slider-one wow fadeInUp">
+                    <div class="slider-one__item">
+                        <a href="#" class="slider-one__left">
+                            <img src="img/main/article.jpg" alt="">
+                            <div class="articles-slider__mts">Быть лучше каждый день</div>
+                        </a>
+                        <div class="slider-one__text">
+                            <div class="articles-slider__type">Экспертная статья</div>
+                            <h3>Группа компаний KOLOBOX разместила ключевые сервисы в облаке МТС</h3>
+                            <a href="#" class="btn btn-red">Читать статью</a>
+                        </div>
+                    </div>
+                    <div class="slider-one__item">
+                        <a href="#" class="slider-one__left">
+                            <img src="img/main/article.jpg" alt="">
+                            <div class="articles-slider__mts">Быть лучше каждый день</div>
+                        </a>
+                        <div class="slider-one__text">
+                            <div class="articles-slider__type">Экспертная статья</div>
+                            <h3>Группа компаний KOLOBOX разместила ключевые сервисы в облаке МТС</h3>
+                            <a href="#" class="btn btn-red">Читать статью</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-ask">
+            <div class="container">
+                <h2 class="s-title wow fadeInUp">Вопросы и ответы</h2>
+                <div class="s-ask_block wow fadeInUp">
+                    <button class="btn-accordion accordion">Как вступить в партнёрскую программу и получить больше информации?
+                    </button>
+                    <div class="panel">
+                        <p>
+                            В основе Elastic cloud используется виртуализация VMware Миграция на VMware возможна не
+                            только с других систем виртуализации (MS Hyper-V, XenServer), но и с «железных» серверов без
+                            виртуализации. Это более сложный и длительный процесс, чем миграция в рамках одной системы
+                            виртуализации. Но у #CloudМТS есть опыт проведения миграции клиентских систем c физических
+                            серверов без виртуализации и инфраструктуры Hyper-V.
+                        </p>
+                    </div>
+                </div>
+                <div class="s-ask_block">
+                    <button class="btn-accordion accordion">Кто может стать партнёром?</button>
+                    <div class="panel">
+                        <p>
+                            В основе Elastic cloud используется виртуализация VMware Миграция на VMware возможна не
+                            только с других систем виртуализации (MS Hyper-V, XenServer), но и с «железных» серверов без
+                            виртуализации. Это более сложный и длительный процесс, чем миграция в рамках одной системы
+                            виртуализации. Но у #CloudМТS есть опыт проведения миграции клиентских систем c физических
+                            серверов без виртуализации и инфраструктуры Hyper-V.
+                        </p>
+                    </div>
+                </div>
+                <div class="s-ask_block">
+                    <button class="btn-accordion accordion">Осуществляется ли техническая поддержка клиентам партнёров?</button>
+                    <div class="panel">
+                        <p>
+                            В основе Elastic cloud используется виртуализация VMware Миграция на VMware возможна не
+                            только с других систем виртуализации (MS Hyper-V, XenServer), но и с «железных» серверов без
+                            виртуализации. Это более сложный и длительный процесс, чем миграция в рамках одной системы
+                            виртуализации. Но у #CloudМТS есть опыт проведения миграции клиентских систем c физических
+                            серверов без виртуализации и инфраструктуры Hyper-V.
+                        </p>
+                    </div>
+                </div>
+                <div class="s-ask_block">
+                    <button class="btn-accordion accordion">Нужно ли платить дополнительные взносы за участие в программе?</button>
+                    <div class="panel">
+                        <p>
+                            Нет, партнёры не платят никаких взносов за участие в партнерской программе #CloudMTS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-services popular-services_mod">
+            <div class="container">
+                <h2 class="s-title wow fadeInUp">Дополнительные сервисы</h2>
+                <div class="popular-services__list">
+                    <div class="popular-services__item wow fadeInUp">
+                        <h3>Безопасность</h3>
+                        <ul>
+                            <li><a href="#">Облако 152-ФЗ</a></li>
+                            <li><a href="#">SOC</a></li>
+                            <li><a href="#">Защита веб-приложений (WAF)</a></li>
+                        </ul>
+                        <a href="#" class="link">
+                            Все 15 сервисов
+                            <svg width="13" height="10" viewBox="0 0 13 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8 10L6.89 9.125L10.53 5.625H0V4.375H10.53L6.89 0.875L7.8 0L13 5L7.8 10Z" />
+                            </svg>
+                        </a>
+                        <img class="popular-services__img" src="img/main/computing_resources.png" alt="">
+                    </div>
+                    <div class="popular-services__item wow fadeInUp" data-wow-delay="0.1s">
+                        <h3>Корпоративные сервисы</h3>
+                        <ul>
+                            <li><a href="#">Корпоративная почта #CloudMTS</a></li>
+                            <li><a href="#">Диск #CloudMTS</a></li>
+                            <li><a href="#">Virtual Desktops</a></li>
+                        </ul>
+                        <a href="#" class="link">
+                            Все 5 сервисов
+                            <svg width="13" height="10" viewBox="0 0 13 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8 10L6.89 9.125L10.53 5.625H0V4.375H10.53L6.89 0.875L7.8 0L13 5L7.8 10Z" />
+                            </svg>
+                        </a>
+                        <img class="popular-services__img" src="img/main/safety.png" alt="">
+                    </div>
+                    <div class="popular-services__item wow fadeInUp" data-wow-delay="0.2s">
+                        <h3>Сетевые сервисы</h3>
+                        <ul>
+                            <li><a href="#">Изолированные сетевые соединения</a></li>
+                            <li><a href="#">SD-WAN</a></li>
+                            <li><a href="#">CDN</a></li>
+                        </ul>
+                        <img class="popular-services__img" src="img/main/data_storage.png" alt="">
+                    </div>
+                    <div class="popular-services__item wow fadeInUp">
+                        <h3>Хранение данных</h3>
+                        <ul>
+                            <li><a href="#">Резервное копирование на базе Acronis</a></li>
+                            <li><a href="#">Резервное копирование на базе Veeam</a></li>
+                            <li><a href="#">Объектное хранилище</a></li>
+                        </ul>
+                        <a href="#" class="link">
+                            Все 15 сервисов
+                            <svg width="13" height="10" viewBox="0 0 13 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8 10L6.89 9.125L10.53 5.625H0V4.375H10.53L6.89 0.875L7.8 0L13 5L7.8 10Z" />
+                            </svg>
+                        </a>
+                        <img class="popular-services__img" src="img/main/corporate_services.png" alt="">
+                    </div>
+                    <div class="popular-services__item wow fadeInUp" data-wow-delay="0.1s">
+                        <h3>Professional&Managet Services</h3>
+                        <ul>
+                            <li><a href="#">Администрирование в облаке</a></li>
+                            <li><a href="#">Реализация проектов в облаке</a></li>
+                            <li><a href="#">Миграция в облаке</a></li>
+                        </ul>
+                        <img class="popular-services__img" src="img/main/development_services.png" alt="">
+                    </div>
+                    <div class="popular-services__item wow fadeInUp" data-wow-delay="0.1s">
+                        <h3>Сервисы для разработки</h3>
+                        <ul>
+                            <li><a href="#">Публичное облако (Elastic Cloud)</a></li>
+                            <li><a href="#">Disaster recovery</a></li>
+                            <li><a href="#">GPU SuperComputer</a></li>
+                        </ul>
+                        <a href="#" class="link">
+                            Все 15 сервисов
+                            <svg width="13" height="10" viewBox="0 0 13 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.8 10L6.89 9.125L10.53 5.625H0V4.375H10.53L6.89 0.875L7.8 0L13 5L7.8 10Z" />
+                            </svg>
+                        </a>
+                        <img class="popular-services__img" src="img/main/development_services.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-subscribe">
+            <div class="container">
+                <h2 class="s-title wow fadeInUp">Подпишитесь на рассылку #CloudMTS</h2>
+                <form action="" class="subscribe-form">
+                    <div class="subscribe-form__title wow fadeInUp">Выберите интересующую тематику</div>
+                    <div class="subscribe-form__types">
+                        <label class="label-radio wow fadeInUp">
+                            <input type="checkbox" name="subscribe-type1" checked>
+                            <span class="label-radio__check"><svg width="20" height="20" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2.64919 10.6117L2.28644 10.9688L2.6501 11.3251L7.78676 16.3572L8.13615 16.6994L8.48604 16.3577L18.3494 6.7231L18.7179 6.3631L18.3471 6.0055L16.931 4.64007L16.5817 4.30327L16.2346 4.64229L8.13686 12.5509L4.74599 9.23538L4.3952 8.89239L4.04562 9.23662L2.64919 10.6117Z" />
+                                </svg></span>
+                            <b>Новости сервиса</b>
+                            Рассказываем про новинки <br> и обновления наших продуктов
+                        </label>
+                        <label class="label-radio wow fadeInUp" data-wow-delay="0.1s">
+                            <input type="checkbox" name="subscribe-type3">
+                            <span class="label-radio__check"><svg width="20" height="20" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2.64919 10.6117L2.28644 10.9688L2.6501 11.3251L7.78676 16.3572L8.13615 16.6994L8.48604 16.3577L18.3494 6.7231L18.7179 6.3631L18.3471 6.0055L16.931 4.64007L16.5817 4.30327L16.2346 4.64229L8.13686 12.5509L4.74599 9.23538L4.3952 8.89239L4.04562 9.23662L2.64919 10.6117Z" />
+                                </svg></span>
+                            <b>Мероприятия</b>
+                            Онлайн и оффлайн мероприятия, <br> в которых вы можете принять участие
+                        </label>
+                        <label class="label-radio wow fadeInUp" data-wow-delay="0.2s">
+                            <input type="checkbox" name="subscribe-type4">
+                            <span class="label-radio__check"><svg width="20" height="20" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2.64919 10.6117L2.28644 10.9688L2.6501 11.3251L7.78676 16.3572L8.13615 16.6994L8.48604 16.3577L18.3494 6.7231L18.7179 6.3631L18.3471 6.0055L16.931 4.64007L16.5817 4.30327L16.2346 4.64229L8.13686 12.5509L4.74599 9.23538L4.3952 8.89239L4.04562 9.23662L2.64919 10.6117Z" />
+                                </svg></span>
+                            <b>Дайджест новостей</b>
+                            Раз в месяц присылаем рассылку <br> с последними новостями
+                        </label>
+                    </div>
+                    <div class="subscribe-form__inputs wow fadeInUp">
+                        <label class="label-input error">
+                            <input type="text" placeholder="Как к вам обращаться?" name="">
+                            <div class="error-text">* Указаны неверные данные!</div>
+                        </label>
+                        <label class="label-input">
+                            <input type="email" placeholder="Электронная почта" name="">
+                            <div class="error-text">* Указаны неверные данные!</div>
+                        </label>
+                        <button class="btn btn-white">Подписаться на рассылку</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+</main>
+
+
+<script src="//www.youtube.com/player_api"></script>
+
+<script>
+    var player = [];
+
+    function onYouTubeIframeAPIReady() {
+        player[0] = new YT.Player('player', {
+            height: 'auto',
+            width: 'auto',
+            videoId: 'Srm_Vq7ACK0',
+        });
+        player[1] = new YT.Player('player2', {
+            height: 'auto',
+            width: 'auto',
+            videoId: 'Srm_Vq7ACK0',
+        });
+    }
+    $(document).on('click', '.video-player__placeholder', function() {
+        $(this).hide(0);
+        var playerVider = Number($(this).attr('data-id'));
+        player[playerVider].playVideo();
+    });
+    var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                    panel.classList.remove("active");
+                    // panel.style.padding = 0;
+                } else {
+                    panel.classList.add("active");
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                    // panel.style.padding = '10px 18px';
+                    // panel.style.paddingLeft = '80px';
+                }
+            });
+        }
+</script>
+
+<!-- @import #sorse/kit/popups.kit -->
+<!-- @import #sorse/kit/footer.kit -->

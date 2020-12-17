@@ -1,0 +1,179 @@
+.fancybox-is-open
+    .fancybox-bg
+        opacity: 0.3
+.popup-close
+    position: absolute
+    top: -75px
+    right: -80px
+    cursor: pointer
+    svg
+        fill: #D6D6D7
+    &:hover
+        svg
+            fill: $redh
+.popup
+    background: #FFFFFF
+    border-radius: 8px
+    margin: 85px auto
+    position: relative
+    overflow: initial
+    .fancybox-button.fancybox-close-small
+        display: none
+        opacity: 0
+    h3
+        font-weight: 900
+        font-size: 29px
+        padding-bottom: 20px
+        a,
+        span
+            color: $red
+        a:hover
+            color: $redh
+    &__sub-title
+        padding-bottom: 40px
+        line-height: 1.5
+    &__input
+        width: 100%
+        padding: 15px 20px
+        height: 54px
+        border: 1px solid rgba(202, 204, 210, 0.5)
+        border-radius: 8px
+        font-size: 14px
+    .label-input
+        width: calc( 50% - 10px )
+        margin-bottom: 15px
+        display: block
+        position: relative
+    .label-textarea
+        width: 100%
+        margin-bottom: 20px
+
+    .error
+        color: $red
+        &-text
+            position: absolute
+            top: 100%
+            left: 20px
+            display: none
+            font-size: 12px
+        .error-text
+            display: none
+    ::placeholder
+        color: #4C5258
+    &__textarea
+        width: 100%
+        height: 120px
+        resize: none
+    .input-file
+        margin-bottom: 40px
+    &__bot
+        display: flex
+        align-items: center
+    .btn
+        width: 280px
+        height: 64px
+        font-size: 14px
+        margin-right: 40px
+    .check-label
+        width: calc( 100% - 320px )
+    h4
+        font-size: 16px
+        font-weight: 900
+        padding-bottom: 20px
+    &__socials
+        display: flex
+        align-items: center
+        a
+            display: flex
+            align-items: center
+            justify-content: center
+            text-align: center
+            width: 40px
+            height: 40px
+            border-radius: 100%
+            background: $red
+            margin-right: 22px
+            &:last-child
+                margin-right: 0
+            &:hover
+                background: $redh
+
+    &-consult
+        width: 820px
+        padding: 50px 50px 70px 70px
+        form
+            display: flex
+            justify-content: space-between
+            flex-wrap: wrap
+    &-success
+        padding: 60px
+        width: 720px
+        &__message
+            padding: 20px 0 60px
+            line-height: 1.5
+        h3
+            font-size: 24px
+
+@media screen and (max-width: 1600px )
+    .popup
+        margin: 50px auto
+        &-close
+            top: -40px
+            right: -40px
+
+// @media screen and (max-width: 1199px )
+
+@media screen and (max-width: 900px )
+    .popup-close
+        top: -50px
+        right: 0
+
+@media screen and (max-width: 850px )
+    .popup-consult
+        width: 92%
+
+@media screen and (max-width: 750px )
+    .popup-consult
+        padding: 30px
+    .popup
+        &-success
+            width: 92%
+        &__bot
+            display: block
+        .check-label
+            width: 100%
+            max-width: 370px
+            margin-top: 20px
+
+@media screen and (max-width: 550px )
+    .popup
+        h3
+            font-size: 20px
+        .label-input
+            width: 100%
+        &__sub-title
+            padding-bottom: 30px
+            font-size: 14px
+        .input-file
+            margin-bottom: 30px
+
+        &-success
+            padding: 30px
+
+@media screen and (max-width: 450px )
+    .popup
+        .btn
+            height: 55px
+            width: 100%
+        h4
+            font-size: 14px
+        &-success
+            &__message
+                padding-top: 0
+                padding-bottom: 40px
+@media screen and (max-width: 400px )
+    .popup
+        &-success
+            padding: 30px 20px
+        .check-label
+            font-size: 10px

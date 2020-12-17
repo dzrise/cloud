@@ -1,0 +1,50 @@
+.btn
+    display: flex
+    align-items: center
+    justify-content: center
+    text-align: center
+    border: none
+    &-red
+        background: $red
+        color: #ffffff
+        border-radius: 8px
+        &:hover
+            background: #FFFFFF
+            color: $red
+            border: 2px solid $red
+
+    &-red-border
+        background: $dwh
+        border: 2px solid $red
+        border-radius: 8px
+        color: $red
+        svg:not(.svg-stroke)
+            fill: $red
+        .svg-stroke
+            stroke: $red
+        &:hover
+            background: $red
+            color: #fff
+            svg:not(.svg-stroke)
+                fill: #fff
+            .svg-stroke
+                stroke: #fff
+        &:focus
+            background: $red
+            color: #fff
+            svg:not(.svg-stroke)
+                fill: #fff
+            .svg-stroke
+                stroke: #fff
+
+    &-white
+        background: #FFFFFF
+        border-radius: 8px
+        color: $red
+        font-weight: bold
+        &:hover
+            background: $redh
+            color: #FFFFFF
+
+button.btn
+    display: block

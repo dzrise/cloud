@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo"><img src="img/logo.svg" alt=""></a>
+            <nav class="header__nav header__nav-left">
+                <ul class="header__nav-list">
+                    <li>
+                        <a href="#" class="header__services">
+                            <img src="img/icon-menu.svg" alt=""> Сервисы
+                        </a>
+                    </li>
+                    <li><a href="#">Дата-центр</a></li>
+                    <li><a href="#">Партнерам</a></li>
+                </ul>
+            </nav>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="nav-search">
+                        <a href="#" class="header__search">Поиск</a>
+                        <form action="" class="search-form">
+                            <div class="search-form__head">
+                                <button class="btn">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.8657 20.5695L15.4749 14.1787C16.687 12.6822 17.4167 10.7797 17.4167 8.70836C17.4167 3.9066 13.5101 0 8.70832 0C3.90655 0 0 3.9066 0 8.70836C0 13.5101 3.9066 17.4167 8.70837 17.4167C10.7797 17.4167 12.6822 16.687 14.1787 15.4749L20.5695 21.8658C20.7486 22.0447 21.0387 22.0447 21.2178 21.8658L21.8658 21.2177C22.0447 21.0387 22.0447 20.7485 21.8657 20.5695ZM8.70837 15.5834C4.91727 15.5834 1.83335 12.4995 1.83335 8.70836C1.83335 4.91727 4.91727 1.83335 8.70837 1.83335C12.4995 1.83335 15.5834 4.91727 15.5834 8.70836C15.5834 12.4995 12.4995 15.5834 8.70837 15.5834Z"/></svg>
+                                </button>
+                                <input type="text" placeholder="Поиск">
+                                <div class="search-form__clear">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.29253 1.30529C1.4799 1.11782 1.73399 1.0125 1.99892 1.0125C2.26386 1.0125 2.51795 1.11782 2.70532 1.30529L7.99375 6.59829L13.2822 1.30529C13.3744 1.20978 13.4846 1.1336 13.6065 1.08119C13.7284 1.02878 13.8595 1.00119 13.9922 1.00004C14.1248 0.998884 14.2564 1.02419 14.3792 1.07447C14.502 1.12475 14.6135 1.199 14.7074 1.29289C14.8012 1.38679 14.8754 1.49844 14.9256 1.62133C14.9758 1.74423 15.0011 1.87591 15 2.00869C14.9988 2.14147 14.9712 2.27269 14.9189 2.39469C14.8665 2.5167 14.7904 2.62704 14.695 2.71929L9.40654 8.01229L14.695 13.3053C14.877 13.4939 14.9777 13.7465 14.9754 14.0087C14.9731 14.2709 14.8681 14.5217 14.6828 14.7071C14.4976 14.8925 14.247 14.9977 13.985 15C13.723 15.0022 13.4706 14.9014 13.2822 14.7193L7.99375 9.42629L2.70532 14.7193C2.51688 14.9014 2.26449 15.0022 2.00252 15C1.74055 14.9977 1.48995 14.8925 1.30471 14.7071C1.11946 14.5217 1.01438 14.2709 1.0121 14.0087C1.00983 13.7465 1.11053 13.4939 1.29253 13.3053L6.58097 8.01229L1.29253 2.71929C1.10522 2.53176 1 2.27745 1 2.01229C1 1.74712 1.10522 1.49282 1.29253 1.30529Z"/></svg>
+                                </div>
+                            </div>
+                            <div class="search-form__result">
+                                <ul class="search-form__list">
+                                    <li>
+                                        <span>Главная/Сервисы/Публичное облако (Elastic Cloud)</span>
+                                        <a href="#"><img src="img/categories/cloud.svg" alt=""> <b>Пуб</b>личное облако Elastic Cloud=</a>
+                                    </li>
+                                    <li>
+                                        <span>Главная/Новости</span>
+                                        <a href="#">Почему традиционные антивирусы не подходят для <b>пуб</b>личных облаков. И что делать?</a>
+                                    </li>
+                                    <li>
+                                        <span>Главная/Новости</span>
+                                        <a href="#">...МТС включает в себя инфраструктурные решения в формате <b>пуб</b>личных и гибридных </a>
+                                    </li>
+                                    <li>
+                                        <span>Главная/Сервисы/Публичное облако (Elastic Cloud)</span>
+                                        <a href="#"><b>Пуб</b>личное облако Elastic Cloud=</a>
+                                    </li>
+                                    <li>
+                                        <span>Главная/Новости</span>
+                                        <a href="#">Почему традиционные антивирусы не подходят для <b>пуб</b>личных облаков.</a>
+                                    </li>
+                                    <li>
+                                        <span>Главная/Новости</span>
+                                        <a href="#">...МТС включает в себя инфраструктурные решения в формате<b>пуб</b>личных и гибридных </a>
+                                    </li>
+                                    <li>
+                                        <span>Главная/Сервисы/Публичное облако (Elastic Cloud)</span>
+                                        <a href="#"><b>Пуб</b>личное облако Elastic Cloud=</a>
+                                    </li>
+                                    <li>
+                                        <span>Главная/Новости</span>
+                                        <a href="#">Почему традиционные антивирусы не подходят для <b>пуб</b>личных облаков.</a>
+                                    </li>
+                                    <li>
+                                        <span>Главная/Новости</span>
+                                        <a href="#">...МТС включает в себя инфраструктурные решения в формате  <b>пуб</b>личных и гибридных </a>
+                                    </li>
+                                </ul>
+                                <div class="search-form__bot">
+                                    <a href="#" class="link">
+                                        Все результаты 
+                                        <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.8 10L6.89 9.125L10.53 5.625H0V4.375H10.53L6.89 0.875L7.8 0L13 5L7.8 10Z"/></svg>
+                                    </a>
+                                </div>
+
+                                <!-- no result -->
+                                <div class="search-form__none" style="display: none;">
+                                    По запросу “<b>sgaergv</b>” ничего не найдено
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                    <li>
+                        <a href="#">Поддержка</a>
+                        <div class="hidden-nav">
+                            <a href="#">Документация</a>
+                            <a href="#">Вопросы и ответы</a>
+                            <a href="#">Техническая поддержка</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Полезно</a></li>
+                    <li><a href="#">Компания</a></li>
+                </ul>
+            </nav>
+            <a href="tel:88002501001" class="header__tel">8 800 250-10-01</a>
+            <a href="#" class="btn btn-red">Подключиться</a>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
